@@ -5,10 +5,14 @@
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
 }
 
 header {
-  margin: 0;
   background-color: #289989;
   display: flex;
 }
@@ -16,27 +20,20 @@ header {
 section {
   margin: 0;
   background-color: #44a080;
-  display: flex;
 }
 
 h1 {
-  padding: 20px;
+  padding: 30px;
   color: #ffffff;
 }
 
 h2 {
   font-weight: normal;
-  padding: 20px;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  flex-wrap: nowrap;
-  flex: 1;
 }
 
 nav {
-  padding: 20px;
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -60,4 +57,16 @@ li:last-child {
 a {
   color: #ffffffff;
   text-decoration: none;
+}
+
+.fa-solid.fa-circle-minus {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.intro-section {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
 }
