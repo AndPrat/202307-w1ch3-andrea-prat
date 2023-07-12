@@ -13,10 +13,28 @@ header {
   display: flex;
 }
 
+section {
+  margin: 0;
+  background-color: #44a080;
+  display: flex;
+}
+
 h1 {
   padding: 20px;
   color: #ffffff;
 }
+
+h2 {
+  font-weight: normal;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
 nav {
   padding: 20px;
   display: flex;
@@ -33,6 +51,10 @@ ul {
 li {
   padding: 10px;
   list-style: none;
+}
+
+li:last-child {
+  padding-right: 0;
 }
 
 a {
