@@ -10,12 +10,22 @@ html {
 header {
   margin: 0;
   background-color: rgb(25, 159, 141);
+  display: flex;
 }
 
 h1 {
-  font: white;
+  padding: 20px;
+  color: #ffffff;
+}
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: nowrap;
 }
 
-nav {
-  font: white;
+a {
+  font: #ffffffff;
+  text-decoration: none;
 }
