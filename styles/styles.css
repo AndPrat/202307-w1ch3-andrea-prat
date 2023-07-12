@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #ffc844;
 }
 
 header {
@@ -64,7 +65,21 @@ a {
 }
 
 fieldset {
+  padding: 0;
   border: none;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  padding: 20px 15px;
+  min-width: 350px;
 }
 
 .count-products-purchased {
@@ -92,7 +107,16 @@ fieldset {
 }
 
 .form-products {
-  font-size: 1.5rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.button-primary {
+  background-color: #289989;
+  border: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 20px;
 }
