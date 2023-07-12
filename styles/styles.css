@@ -63,6 +63,10 @@ a {
   text-decoration: none;
 }
 
+fieldset {
+  border: none;
+}
+
 .count-products-purchased {
   color: #ffffff;
 }
@@ -89,3 +93,6 @@ a {
 
 .form-products {
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
