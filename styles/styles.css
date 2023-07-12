@@ -9,7 +9,7 @@ html {
 
 header {
   margin: 0;
-  background-color: rgb(25, 159, 141);
+  background-color: #289989;
   display: flex;
 }
 
@@ -23,9 +23,19 @@ nav {
   align-items: center;
   justify-content: end;
   flex-wrap: nowrap;
+  flex: 1;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
 }
 
 a {
-  font: #ffffffff;
+  color: #ffffffff;
   text-decoration: none;
 }
