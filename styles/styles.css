@@ -1,0 +1,21 @@
+* ::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin: 0;
+  background-color: rgb(25, 159, 141);
+}
+
+h1 {
+  font: white;
+}
+
+nav {
+  font: white;
+}
