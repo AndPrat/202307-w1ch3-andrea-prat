@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #ffc844;
 }
 
 header {
@@ -22,6 +23,11 @@ section {
   background-color: #44a080;
 }
 
+article {
+  margin: 0;
+  padding: 30px;
+}
+
 h1 {
   padding: 30px;
   color: #ffffff;
@@ -29,7 +35,6 @@ h1 {
 
 h2 {
   font-weight: normal;
-  color: #ffffff;
 }
 
 nav {
@@ -59,6 +64,28 @@ a {
   text-decoration: none;
 }
 
+fieldset {
+  padding: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  padding: 20px 15px;
+  min-width: 350px;
+}
+
+.count-products-purchased {
+  color: #ffffff;
+}
+
 .fa-solid.fa-circle-minus {
   color: #ffffff;
   font-size: 3rem;
@@ -69,4 +96,27 @@ a {
   justify-content: space-between;
   display: flex;
   padding: 30px;
+}
+
+.add-article-shop {
+  background-color: #ffc844;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.form-products {
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.button-primary {
+  background-color: #289989;
+  border: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 20px;
 }
