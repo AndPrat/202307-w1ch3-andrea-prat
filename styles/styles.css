@@ -22,6 +22,11 @@ section {
   background-color: #44a080;
 }
 
+article {
+  margin: 0;
+  padding: 30px;
+}
+
 h1 {
   padding: 30px;
   color: #ffffff;
@@ -29,7 +34,6 @@ h1 {
 
 h2 {
   font-weight: normal;
-  color: #ffffff;
 }
 
 nav {
@@ -59,6 +63,10 @@ a {
   text-decoration: none;
 }
 
+.count-products-purchased {
+  color: #ffffff;
+}
+
 .fa-solid.fa-circle-minus {
   color: #ffffff;
   font-size: 3rem;
@@ -70,3 +78,14 @@ a {
   display: flex;
   padding: 30px;
 }
+
+.add-article-shop {
+  background-color: #ffc844;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.form-products {
+  font-size: 1.5rem;
